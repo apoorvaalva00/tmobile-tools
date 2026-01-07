@@ -1,0 +1,5 @@
+{
+  "name": "Enterprise App Portal",
+  "description": "A modern, responsive dashboard for managing and accessing corporate web applications across PROD, NON-PROD, and common environments.",
+  "requestFramePermissions": []
+}
