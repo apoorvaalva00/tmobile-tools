@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# T-Mobile Tools Enterprise Portal
 
-# Run and deploy your AI Studio app
+A unified dashboard for accessing T-Mobile enterprise tools and applications. This portal provides a centralized hub for managing and navigating internal resources across different environments.
 
-This contains everything you need to run your app locally.
+## 🚀 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/17qWpG7vExTX2u58RnOFzeiqfgOFc0IrQ
+- **Centralized Dashboard**: Access all enterprise tools in one place with a clean, modern interface.
+- **Smart Organization**: Tools are categorized by environment (PROD, NON-PROD, COMMON) for intuitive navigation.
+- **Search & Discovery**: Instantly find applications using the real-time search functionality.
+- **Quick Access**: Pin your most frequently used apps to the "Quick Access" section by clicking the heart icon.
+- **Dark Mode**: Seamlessly switch between light and dark themes. Your preference is saved automatically.
+- **Responsive Design**: Fully optimized experience across desktop and mobile devices.
 
-## Run Locally
+## 🛠️ Usage
 
-**Prerequisites:**  Node.js
+1.  **Browse**: Use the tabs to filter tools by environment (e.g., PROD vs NON-PROD).
+2.  **Search**: Use the search bar to filter apps by name or category.
+3.  **Favorite**: Click the heart icon on any app card to save it to your favorites.
+4.  **Launch**: Click "Launch Tool" to open the application in a new tab.
 
+## 📦 Deployment
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+This application is configured for deployment on **GitHub Pages**.
+
+To deploy the latest version:
+
+```bash
+npm run deploy
+```
+
+This command builds the project and pushes the `dist` folder to the `gh-pages` branch.
