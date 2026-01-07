@@ -1,134 +1,183 @@
-
 import { AppDefinition } from './types';
 
 export const APP_DATA: AppDefinition[] = [
   // NON-PROD
-  { 
-    id: 'np-vault', category: 'NON-PROD', name: 'Vault', 
+  {
+    id: 'np-vault',
+    category: 'NON-PROD',
+    name: 'Vault',
     url: 'https://nonprod-vault.corp.local',
-    logo: 'https://www.vectorlogo.zone/logos/hashicorp_vault/hashicorp_vault-icon.svg'
+    logo: 'https://nicepng.com/png/detail/827-8272881_vault-logo-black-and-white-hashicorp-vault-logo.png',
   },
-  { 
-    id: 'np-conductor', category: 'NON-PROD', name: 'Conductor', 
-    url: 'https://nonprod-conductor.corp.local',
-    logo: 'https://cdn.worldvectorlogo.com/logos/netflix-3.svg' 
+  {
+    id: 'np-conduktor',
+    category: 'NON-PROD',
+    name: 'Conduktor',
+    url: 'https://nonprod-conduktor.corp.local',
+    logo: 'https://cdn-icons-png.flaticon.com/512/3064/3064197.png',
   },
-  { 
-    id: 'np-deepio', category: 'NON-PROD', name: 'DeepIO', 
+  {
+    id: 'np-deepio',
+    category: 'NON-PROD',
+    name: 'DeepIO',
     url: 'https://nonprod-deepio.corp.local',
-    logo: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg' 
+    logo: 'https://cdn-icons-png.flaticon.com/512/3081/3081815.png',
   },
-  { 
-    id: 'np-splunk', category: 'NON-PROD', name: 'Splunk', 
+  {
+    id: 'np-splunk',
+    category: 'NON-PROD',
+    name: 'Splunk',
     url: 'https://nonprod-splunk.corp.local',
-    logo: 'https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg'
+    logo: 'https://logo.svgcdn.com/logos/splunk.png',
   },
-  { 
-    id: 'np-grafana', category: 'NON-PROD', name: 'Grafana', 
+  {
+    id: 'np-grafana',
+    category: 'NON-PROD',
+    name: 'Grafana',
     url: 'https://nonprod-grafana.corp.local',
-    logo: 'https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg',
   },
-  { 
-    id: 'np-appdynamics', category: 'NON-PROD', name: 'AppDynamics', 
+  {
+    id: 'np-appdynamics',
+    category: 'NON-PROD',
+    name: 'AppDynamics',
     url: 'https://nonprod-appdynamics.corp.local',
-    logo: 'https://www.vectorlogo.zone/logos/appdynamics/appdynamics-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/appdynamics/appdynamics-icon.svg',
   },
 
   // PROD
-  { 
-    id: 'p-vault', category: 'PROD', name: 'Vault', 
+  {
+    id: 'p-vault',
+    category: 'PROD',
+    name: 'Vault',
     url: 'https://vault.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/hashicorp_vault/hashicorp_vault-icon.svg'
+    logo: 'https://nicepng.com/png/detail/827-8272881_vault-logo-black-and-white-hashicorp-vault-logo.png',
   },
-  { 
-    id: 'p-conductor', category: 'PROD', name: 'Conductor', 
-    url: 'https://conductor.corp.com',
-    logo: 'https://cdn.worldvectorlogo.com/logos/netflix-3.svg'
+  {
+    id: 'p-conduktor',
+    category: 'PROD',
+    name: 'Conduktor',
+    url: 'https://conduktor.corp.com',
+    logo: 'https://cdn-icons-png.flaticon.com/512/3064/3064197.png',
   },
-  { 
-    id: 'p-deepio', category: 'PROD', name: 'DeepIO', 
+  {
+    id: 'p-deepio',
+    category: 'PROD',
+    name: 'DeepIO',
     url: 'https://deepio.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg',
   },
-  { 
-    id: 'p-splunk', category: 'PROD', name: 'Splunk', 
+  {
+    id: 'p-splunk',
+    category: 'PROD',
+    name: 'Splunk',
     url: 'https://splunk.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/splunk/splunk-icon.svg'
+    logo: 'https://logo.svgcdn.com/logos/splunk.png',
   },
-  { 
-    id: 'p-grafana', category: 'PROD', name: 'Grafana', 
+  {
+    id: 'p-grafana',
+    category: 'PROD',
+    name: 'Grafana',
     url: 'https://grafana.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg',
   },
-  { 
-    id: 'p-appdynamics', category: 'PROD', name: 'AppDynamics', 
+  {
+    id: 'p-appdynamics',
+    category: 'PROD',
+    name: 'AppDynamics',
     url: 'https://appdynamics.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/appdynamics/appdynamics-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/appdynamics/appdynamics-icon.svg',
   },
 
   // COMMON
-  { 
-    id: 'c-tagconsole', category: 'COMMON', name: 'tagconsole', 
+  {
+    id: 'c-tagconsole',
+    category: 'COMMON',
+    name: 'tagconsole',
     url: 'https://tagconsole.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg',
   },
-  { 
-    id: 'c-compass', category: 'COMMON', name: 'compass', 
+  {
+    id: 'c-compass',
+    category: 'COMMON',
+    name: 'compass',
     url: 'https://compass.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg',
   },
-  { 
-    id: 'c-api-explorer', category: 'COMMON', name: 'API Explorer', 
+  {
+    id: 'c-api-explorer',
+    category: 'COMMON',
+    name: 'API Explorer',
     url: 'https://api-explorer.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg'
+    logo: 'https://cdn-icons-png.flaticon.com/512/1006/1006771.png',
   },
-  { 
-    id: 'c-cyberark', category: 'COMMON', name: 'CyberArk', 
-    url: 'https://www.cyberark.com/wp-content/uploads/2020/07/cyberark-logo-mark.png' 
+  {
+    id: 'c-cyberark',
+    category: 'COMMON',
+    name: 'CyberArk',
+    url: 'https://cdn.pixabay.com/photo/2021/08/20/19/35/cyberark-6564645_1280.png',
   },
-  { 
-    id: 'c-tapsec', category: 'COMMON', name: 'tapsec', 
+  {
+    id: 'c-tapsec',
+    category: 'COMMON',
+    name: 'tapsec',
     url: 'https://tapsec.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/checkpoint/checkpoint-icon.svg'
+    logo: 'https://cdn-icons-png.flaticon.com/512/2919/2919592.png',
   },
-  { 
-    id: 'c-nclm', category: 'COMMON', name: 'nclm', 
+  {
+    id: 'c-nclm',
+    category: 'COMMON',
+    name: 'nclm',
     url: 'https://nclm.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg',
   },
-  { 
-    id: 'c-keepervault', category: 'COMMON', name: 'keeperVault', 
+  {
+    id: 'c-keepervault',
+    category: 'COMMON',
+    name: 'keeperVault',
     url: 'https://keepervault.corp.com',
-    logo: 'https://www.keepersecurity.com/assets/img/logos/keeper-logo-symbol.png'
+    logo: 'https://cdn-icons-png.flaticon.com/512/7016/7016103.png',
   },
-  { 
-    id: 'c-cap', category: 'COMMON', name: 'Cloud Access Portal', 
+  {
+    id: 'c-cap',
+    category: 'COMMON',
+    name: 'Cloud Access Portal',
     url: 'https://cap.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg',
   },
-  { 
-    id: 'c-myaccess', category: 'COMMON', name: 'Microsoft My Access', 
+  {
+    id: 'c-myaccess',
+    category: 'COMMON',
+    name: 'Microsoft My Access',
     url: 'https://myaccess.microsoft.com',
-    logo: 'https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg',
   },
-  { 
-    id: 'c-gitlab', category: 'COMMON', name: 'GitLab', 
+  {
+    id: 'c-gitlab',
+    category: 'COMMON',
+    name: 'GitLab',
     url: 'https://gitlab.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg',
   },
-  { 
-    id: 'c-xmatters', category: 'COMMON', name: 'xMatters', 
+  {
+    id: 'c-xmatters',
+    category: 'COMMON',
+    name: 'xMatters',
     url: 'https://xmatters.corp.com',
-    logo: 'https://www.xmatters.com/wp-content/uploads/2021/04/everbridge-logo-1.png'
+    logo: 'https://www.xmatters.com/wp-content/uploads/2021/04/everbridge-logo-1.png',
   },
-  { 
-    id: 'c-jira', category: 'COMMON', name: 'JIRA', 
+  {
+    id: 'c-jira',
+    category: 'COMMON',
+    name: 'JIRA',
     url: 'https://jira.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg',
   },
-  { 
-    id: 'c-sonarqube', category: 'COMMON', name: 'SonarQube', 
+  {
+    id: 'c-sonarqube',
+    category: 'COMMON',
+    name: 'SonarQube',
     url: 'https://sonarqube.corp.com',
-    logo: 'https://www.vectorlogo.zone/logos/sonarqube/sonarqube-icon.svg'
+    logo: 'https://www.vectorlogo.zone/logos/sonarqube/sonarqube-icon.svg',
   },
 ];
